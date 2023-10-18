@@ -1,0 +1,35 @@
+#box1 {
+    width: 300px;
+    height: 400px;
+    background-color: blue;
+    text-align:center;
+    padding: 50px;;
+    float:left;
+    box-sizing: border-box;
+    border-radius: 20px;
+    margin: 200px;align-items: center;
+
+}
+
+#box2{
+    width: 200px;
+    height: 200px;
+    background-color: hsla(256, 72%, 46%, 1);
+    text-align: center;
+    box-sizing: border-box;
+    border-radius: 100px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
+
+}
+
+#box3 {
+    width: 300px;
+    height: 400px;
+    background-color: rgb(255, 255, 255);
+    text-align:start;
+    padding: 80px;;
+    float:right;
+    box-sizing: border-box;
+    border-radius: 100px;
+
+}
