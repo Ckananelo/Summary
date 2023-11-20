@@ -1,31 +1,102 @@
 .container{
+    padding-left: 320px;
+    padding-top: 140px;
     display: flex;
-    
+    width: 100vh;
+    background-color: rgb(255, 255, 255);
+    justify-content: space-evenly;
 }
 #box1 {
-    width: 400px;
+    width: 300px;
     height: 400px;
-    background-color: rgb(3, 3, 207);
-    text-align: center;
-    padding: 150px;
-    float:left;
-    box-sizing: border-box;
+    background: linear-gradient(180deg, hsl(252, 100%, 67%),hsl(241, 81%, 54%));
     border-radius: 20px;
+    text-align: center;
 
 }
 #box2{
-    width: 100px;
-    height: 100px;
-    background-color: rgb(59, 45, 99);
-    text-align: center;
-    box-sizing: border-box;
+    width: 150px;
+    height: 150px;
+    background: linear-gradient(180deg, hsla(256, 72%, 46%, 1),hsla(241, 72%, 46%, 0));
     border-radius: 100px;
+    text-align: center;
+    margin-left: 23%;
 }
 #box3{
     width: 400px;
     height: 400px;
-    float: right;
+    background-color: rgb(255, 255, 255);
+    margin-left: 33px;
+    
 }
-.body{
-    font-family: Cambria, Cochin, Arial, Helvetica, sans-serif;
+*{
+   font-family: Hanken Grotesk;
+}
+.main{
+    justify-content: space-evenly;
+    height: 500px;
+    width: 500px;
+    background-color: rgb(44, 83, 83);
+    
+    
+}
+.asidebox{
+    height: 500px;
+    width: 500px;
+    background-color: blueviolet;
+    
+}
+button{
+    background-color: hsl(241, 81%, 54%);
+    width: 150px;
+    height: 30px;
+    border-radius: 20px;
+    border: none;
+    font-size: medium;
+    color: antiquewhite;
+    cursor: pointer;
+}
+h1{
+    padding-top: 43px;
+    margin-top: 33px;
+    font: bolder;
+    font-size: xx-large;
+    font-weight: 800;
+    font-family:  Hanken Grotesk;
+    font-style: initial;
+    color: hsl(0, 0%, 100%);
+}
+h4{
+    color: hsl(224, 30%, 27%);
+}
+h2{
+    color: #ebcdcd;
+}
+h6{
+    color: #ebcdcd;
+    font-size: 12px;
+    font-family: Hanken Grotesk;
+    font-style: normal;
+}
+h3{
+    color: hsl(241, 100%, 89%);
+}
+p{
+    margin-top: 30px;
+}
+
+#Reaction{
+    color: hsl(0, 100%, 67%);
+}
+
+#Memory{
+    color: hsl(39, 100%, 56%);
+}
+
+#Verbal{
+    color: hsl(166, 100%, 37%);
+}
+
+#Visual{
+    color: hsl(234, 85%, 45%);
 }
